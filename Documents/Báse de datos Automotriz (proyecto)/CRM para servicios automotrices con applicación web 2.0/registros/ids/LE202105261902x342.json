@@ -1,0 +1,15 @@
+{
+"controlHora":"19:02",
+"controlFecha":"2021/05/26",
+"id_registro":"LE202105261902x342",
+"cliente":{"nombre": "Jesus Alberto", "telefono": "5577805780", "direccion": "Ecatepec edo. mex.", "whatsApp": false},
+"datosAuto":{"tipo": "Tesla", "marca": "Tesla", "modelo": "2022", "placas": "54JK-48", "kilometraje": "1112225020"},
+"interiorAuto":{"tablero": true, "aire": true, "plumas": true, "radio": true, "bocinas": true, "encendedor": true, "retrovisor": true, "ceniceros": true, "cinturones": true, "botones": true, "manijas": true, "tapetes": true, "vestiduras": true},
+"exteriorAuto":{"luces": true, "antena": true, "espejos": true, "cristales": true, "llantas": true, "tapones": true, "molduras": true, "gasolina": true, "parrilla": true, "claxon": true},
+"gasolinaPorCentaje":12.5,
+"accesorios":{"gato": true, "maneral": true, "llave-ruedas": true, "estuche": true, "triangulos": true, "refaccion": true, "extintor": true},
+"componentes":{"claxon": true, "tapon-aceite": true, "tapon-radiador": true, "varilla-aceite": true, "filtro": true, "bateria": true},
+"comentarios":"Sin problemas ",
+"fecha":"2021/05/26",
+"hora":"19:02"
+}

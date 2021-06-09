@@ -1,0 +1,40 @@
+{% extends 'base3.html' %}
+
+{% block head %}
+    <title>Status de reparación</title>
+{% endblock %}
+
+    {% block body %}
+    <nav class="navbar oswald">
+
+      Inicio
+      <div class="btn-group btn-group-toggle" data-toggle="buttons">
+   
+        <a style="color: black;" type="button" class="btn btn-outline-secondary" href="/busqueda/cliente">Buscar cliente</a>
+        <a style="color: black;" type="button" class="btn btn-outline-secondary" href="/registrar/nuevocliente">Registrar cliente</a>
+        <a style="color: black;" type="button" class="btn btn-outline-secondary" href="/crear-estado-reparacion">Nuevo estatus</a>
+        <a style="color: black;" type="button" class="btn btn-outline-secondary" href="javascript:router()">Actualizar estatus</a>
+    
+      </div>
+    </nav>
+    <br>
+      <h1 style="text-align: center;"  class="oswald">Bienvenido al sistema de gestión</h1>
+      <br><br>
+      <br>
+      <div style="text-align: center;">
+      <img  src="/static/imgs/servicio_montes.jpeg" alt="">
+    </div>
+
+      
+
+      
+    <script type="text/javascript">
+      function router() {
+        let plates = prompt("Placas del auto: ").toLocaleUpperCase()
+        //console.log(plates)
+        if (plates && plates.length > 5) window.location = "/actualizar-estado-reparacion/" + plates
+      }
+    </script>
+ 
+
+  {% endblock %}

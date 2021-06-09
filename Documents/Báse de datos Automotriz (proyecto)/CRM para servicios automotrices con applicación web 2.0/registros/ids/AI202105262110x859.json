@@ -1,0 +1,15 @@
+{
+"controlHora":"21:10",
+"controlFecha":"2021/05/26",
+"id_registro":"AI202105262110x859",
+"cliente":{"nombre": "Bertha", "telefono": "5513961483", "direccion": "Ignacio Zaragoza", "whatsApp": true},
+"datosAuto":{"tipo": "Aveo", "marca": "Chevrolet", "modelo": "2019", "placas": "19ALD", "kilometraje": "15000"},
+"interiorAuto":{"tablero": true, "aire": true, "plumas": true, "radio": false, "bocinas": false, "encendedor": false, "retrovisor": true, "ceniceros": true, "cinturones": true, "botones": true, "manijas": true, "tapetes": true, "vestiduras": false},
+"exteriorAuto":{"luces": true, "antena": true, "espejos": true, "cristales": true, "llantas": true, "tapones": true, "molduras": true, "gasolina": true, "parrilla": true, "claxon": true},
+"gasolinaPorCentaje":50,
+"accesorios":{"gato": true, "maneral": true, "llave-ruedas": true, "estuche": true, "triangulos": true, "refaccion": true, "extintor": true},
+"componentes":{"claxon": true, "tapon-aceite": true, "tapon-radiador": true, "varilla-aceite": true, "filtro": true, "bateria": true},
+"comentarios":"",
+"fecha":"2021/05/26",
+"hora":"21:16"
+}

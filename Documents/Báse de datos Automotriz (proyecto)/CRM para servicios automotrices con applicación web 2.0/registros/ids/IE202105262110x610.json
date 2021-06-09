@@ -1,0 +1,15 @@
+{
+"controlHora":"21:10",
+"controlFecha":"2021/05/26",
+"id_registro":"IE202105262110x610",
+"cliente":{"nombre": "Erika Villanueva ", "telefono": "5523154359", "direccion": "IGNACIO ZARAGOZA 24, HEROES DE LA INDEPENDENCIA ", "whatsApp": true},
+"datosAuto":{"tipo": "Beat", "marca": "Chevrolet", "modelo": "2018", "placas": "NCW2020", "kilometraje": "85000"},
+"interiorAuto":{"tablero": true, "aire": true, "plumas": true, "radio": true, "bocinas": true, "encendedor": true, "retrovisor": true, "ceniceros": false, "cinturones": true, "botones": true, "manijas": true, "tapetes": true, "vestiduras": true},
+"exteriorAuto":{"luces": true, "antena": true, "espejos": true, "cristales": true, "llantas": true, "tapones": true, "molduras": true, "gasolina": true, "parrilla": true, "claxon": true},
+"gasolinaPorCentaje":50,
+"accesorios":{"gato": true, "maneral": true, "llave-ruedas": true, "estuche": false, "triangulos": true, "refaccion": true, "extintor": false},
+"componentes":{"claxon": true, "tapon-aceite": true, "tapon-radiador": true, "varilla-aceite": true, "filtro": true, "bateria": true},
+"comentarios":"Funciona correctamente ",
+"fecha":"2021/05/26",
+"hora":"21:13"
+}

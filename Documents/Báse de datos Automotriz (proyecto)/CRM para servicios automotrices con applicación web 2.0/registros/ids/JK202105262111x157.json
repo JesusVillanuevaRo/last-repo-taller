@@ -1,0 +1,23 @@
+{
+"controlHora":"21:11",
+"controlFecha":"2021/05/26",
+"id_registro":"JK202105262111x157",
+"cliente":{"nombre": "Jesus Alberto Villanueva Rodea", "telefono": "5577805780", "direccion": "Ecatepec", "whatsApp": true},
+"datosAuto":{"tipo": "Tesla", "marca": "Tesla", "modelo": "2021", "placas": "JES24", "kilometraje": "125800"},
+"interiorAuto":{"tablero": true, "aire": true, "plumas": true, "radio": true, "bocinas": true, "encendedor": true, "retrovisor": true, "ceniceros": true, "cinturones": true, "botones": true, "manijas": true, "tapetes": true, "vestiduras": true},
+"exteriorAuto":{"luces": true, "antena": true, "espejos": true, "cristales": true, "llantas": true, "tapones": true, "molduras": true, "gasolina": true, "parrilla": true, "claxon": true},
+"gasolinaPorCentaje":12.5,
+"accesorios":{"gato": true, "maneral": true, "llave-ruedas": true, "estuche": true, "triangulos": true, "refaccion": true, "extintor": true},
+"componentes":{"claxon": true, "tapon-aceite": true, "tapon-radiador": true, "varilla-aceite": true, "filtro": true, "bateria": true},
+"comentarios":"No presenta ningún problema",
+"fecha":"2021/05/26",
+"hora":"21:13"
+}"componentes":{"claxon": true, "tapon-aceite": true, "tapon-radiador": true, "varilla-aceite": true, "filtro": true, "bateria": true},
+"comentarios":"No presenta ningun problema",
+"fecha":"2021/05/26",
+"hora":"21:13"
+}"componentes":{"claxon": true, "tapon-aceite": true, "tapon-radiador": true, "varilla-aceite": true, "filtro": true, "bateria": true},
+"comentarios":"No presenta ningun problema",
+"fecha":"2021/05/26",
+"hora":"21:15"
+}

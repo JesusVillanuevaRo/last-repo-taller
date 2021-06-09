@@ -1,0 +1,36 @@
+{% extends 'base3.html' %}
+
+{% block head %}
+<title>Registrar nuevo</title>
+{% endblock %}
+
+{% block body %}
+<nav class="navbar oswald">
+  <a style="color: black;" type="button" class="btn btn-outline-secondary" href="/">Inicio</a>
+  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+    <a style="color: black;" type="button" class="btn btn-outline-secondary" href="/busqueda/cliente">Buscar cliente</a>
+    <a style="color: black;" type="button" class="btn btn-outline-secondary" href="/crear-estado-reparacion">Nuevo estatus</a>
+    <a style="color: black;" type="button" class="btn btn-outline-secondary" href="javascript:router()">Actualizar estatus</a>
+  </div>
+</nav>
+<main id="contenedor" class="centrado-vertical">
+  <form action="/registrar/nuevocliente" method="post">
+    <div id="antes-de-circulo" class="centrado-horizontal">
+      <a class="btn-intuitivo">
+        <div class="circulo centrado-vertical icono-mas oswald" onclick="javascript:document.forms[0].submit()">
+          +
+        </div>
+      </a>
+    </div>
+  </form>
+  <br>
+  <h2>Registrar nuevo auto</h2>
+</main>
+<script type="text/javascript">
+  function router() {
+    var plates = prompt("Placas del auto: ")
+    //console.log(plates)
+    if (plates && plates.length > 5) window.location = "/actualizar-estado-reparacion/" + plates
+  }
+</script>
+{% endblock %}

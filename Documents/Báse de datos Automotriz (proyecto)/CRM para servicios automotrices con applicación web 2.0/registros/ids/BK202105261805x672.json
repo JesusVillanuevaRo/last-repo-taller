@@ -1,0 +1,15 @@
+{
+"controlHora":"18:05",
+"controlFecha":"2021/05/26",
+"id_registro":"BK202105261805x672",
+"cliente":{"nombre": "Jesus", "telefono": "5577805780", "direccion": "Ecatepec edo. mex.", "whatsApp": true},
+"datosAuto":{"tipo": "Aveo", "marca": "Chevrolet", "modelo": "2020", "placas": "JES2021", "kilometraje": "111402"},
+"interiorAuto":{"tablero": true, "aire": true, "plumas": true, "radio": true, "bocinas": true, "encendedor": true, "retrovisor": true, "ceniceros": true, "cinturones": true, "botones": true, "manijas": true, "tapetes": true, "vestiduras": true},
+"exteriorAuto":{"luces": true, "antena": true, "espejos": true, "cristales": true, "llantas": true, "tapones": true, "molduras": true, "gasolina": true, "parrilla": true, "claxon": true},
+"gasolinaPorCentaje":50,
+"accesorios":{"gato": true, "maneral": true, "llave-ruedas": true, "estuche": true, "triangulos": true, "refaccion": true, "extintor": true},
+"componentes":{"claxon": true, "tapon-aceite": true, "tapon-radiador": true, "varilla-aceite": true, "filtro": true, "bateria": true},
+"comentarios":"Todo esta en su lugar",
+"fecha":"2021/05/26",
+"hora":"18:08"
+}

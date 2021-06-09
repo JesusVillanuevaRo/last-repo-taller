@@ -1,0 +1,5 @@
+{
+"controlHora":"15:57",
+"controlFecha":"2021/06/09",
+"id_registro":"LE202106091557x322",
+"cliente":{"nombre": "Pancho Villa", "telefono": "550123456", "direccion": "Avenid de las Jacarandas #345, Col. Lomas, CDMX", "whatsApp": true},

@@ -1,0 +1,15 @@
+{
+"controlHora":"00:21",
+"controlFecha":"2021/05/27",
+"id_registro":"GC202105270021x248",
+"cliente":{"nombre": "Jesus Alberto Villanueva Rodea", "telefono": "5577805780", "direccion": "Ecatepec", "whatsApp": true},
+"datosAuto":{"tipo": "Tsuru", "marca": "Nissan", "modelo": "2015", "placas": "JES2021", "kilometraje": "111000222520"},
+"interiorAuto":{"tablero": false, "aire": true, "plumas": true, "radio": false, "bocinas": true, "encendedor": true, "retrovisor": true, "ceniceros": false, "cinturones": true, "botones": false, "manijas": true, "tapetes": true, "vestiduras": true},
+"exteriorAuto":{"luces": true, "antena": true, "espejos": true, "cristales": true, "llantas": true, "tapones": true, "molduras": true, "gasolina": true, "parrilla": true, "claxon": true},
+"gasolinaPorCentaje":25,
+"accesorios":{"gato": true, "maneral": true, "llave-ruedas": true, "estuche": false, "triangulos": true, "refaccion": true, "extintor": false},
+"componentes":{"claxon": true, "tapon-aceite": true, "tapon-radiador": true, "varilla-aceite": true, "filtro": true, "bateria": true},
+"comentarios":"Servicio rapido",
+"fecha":"2021/05/27",
+"hora":"00:22"
+}

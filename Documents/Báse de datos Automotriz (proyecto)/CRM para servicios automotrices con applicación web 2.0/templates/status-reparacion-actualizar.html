@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block head %}
+  <title>Actualización de estatus</title>
+  {% endblock %}
+
+  {% block body %}
+  <nav class="navbar oswald">
+  <h1>Ingresa status de Orden de Servicio</h1>
+  </nav><br>
+  <form action="/actualizar-estado-reparacion/{{orden_servicio["car"]["plates"]}}" method="post">
+    <label for="cliente">Cliente</label><br>
+    <input type="text" name="cliente" value="{{orden_servicio["client"]["name"]}}"><br>
+    <label for="trabajo">Trabajo</label><br>
+    <input type="text" name="trabajo" value="{{orden_servicio["client"]["name"]}}"><br>
+    <label for="status-p">Status Porcentaje</label><br>
+    <input type="text" name="status-p" value="{{orden_servicio["status"]["percentage"]}}"><br>
+    <label for="carro">Auto Modelo</label><br>
+    <input type="text" name="carro" value="{{orden_servicio["car"]["model"]}}"><br>
+    <label for="placas">Auto Placas</label><br>
+    <input type="text" name="placas" value="{{orden_servicio["car"]["plates"]}}" disabled><br>
+    <label for="status-d">Status Descripcion</label><br>
+    <input type="text" name="status-d" value="{{orden_servicio["status"]["description"]}}"><br>
+    <input type="submit" name="" value="Actualizar"><br>
+  </form><br>
+  <div>
+    <div class="col-1">
+      <button id="atras-btn" onclick="history.back()" class="btn-siguiente"></button>
+    </div>
+  </div>
+  <div>
+      <span class="oswald col-1">Regresar</span>
+  </div>
+  {% endblock %}
